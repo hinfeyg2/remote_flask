@@ -1,0 +1,238 @@
+{
+    "system_off": {
+
+        "LG_REMOTE": {
+            "power": "power_off"
+        },
+
+        "AMP": {
+            "power": "pwr_off",
+            "channel": "input_dvd_bd",
+            "sound": "mode_tv"
+        },
+
+        "Apple_A1294": {
+            "power": "pwr_off"
+        },
+
+        "firetv": {
+            "power": "off"
+        },
+
+        "UPC": {
+            "power": "pwr_off"
+        },
+
+        "Microsoft_Xbox360": {
+            "power": "KEY_POWER_OFF"
+        }
+    },
+
+    "watch_tv": {
+
+        "LG_REMOTE": {
+            "power": "power_on"
+        },
+
+        "AMP": {
+            "power": "pwr_on",
+            "channel": "input_dvd_bd",
+            "sound": "mode_tv"
+        },
+
+        "Apple_A1294": {
+            "power": "pwr_off"
+        },
+
+        "firetv": {
+            "power": "off"
+        },
+
+        "UPC": {
+            "power": "pwr_on"
+        },
+
+        "Microsoft_Xbox360": {
+            "power": "KEY_POWER_OFF"
+        }
+    },
+
+
+    "kodi": {
+
+        "LG_REMOTE": {
+            "power": "power_on"
+        },
+
+        "AMP": {
+            "power": "pwr_on",
+            "channel": "input_vcr_dvr",
+            "sound": "mode_tv"
+        },
+
+        "Apple_A1294": {
+            "power": "pwr_off"
+        },
+
+        "firetv": {
+            "power": "on",
+            "app": "adb shell monkey -p org.xbmc.kodi -c android.intent.category.LAUNCHER 1"
+        },
+
+        "UPC": {
+            "power": "pwr_off"
+        },
+
+        "Microsoft_Xbox360": {
+            "power": "KEY_POWER_OFF"
+        }
+    },
+
+    "netflix": {
+
+        "LG_REMOTE": {
+            "power": "power_on"
+        },
+
+        "AMP": {
+            "power": "pwr_on",
+            "channel": "input_vcr_dvr",
+            "sound": "mode_tv"
+        },
+
+        "Apple_A1294": {
+            "power": "pwr_off"
+        },
+
+        "firetv": {
+            "power": "on",
+            "app": "adb shell monkey -p com.netflix.ninja -c android.intent.category.LAUNCHER 1"
+        },
+
+        "UPC": {
+            "power": "pwr_off"
+        },
+
+        "Microsoft_Xbox360": {
+            "power": "KEY_POWER_OFF"
+        }
+    },
+
+    "mobdro": {
+
+        "LG_REMOTE": {
+            "power": "power_on"
+        },
+
+        "AMP": {
+            "power": "pwr_on",
+            "channel": "input_vcr_dvr",
+            "sound": "mode_tv"
+        },
+
+        "Apple_A1294": {
+            "power": "pwr_off"
+        },
+
+        "firetv": {
+            "power": "on",
+            "app": "adb shell monkey -p com.mobdro.android -c android.intent.category.LAUNCHER 1"
+        },
+
+        "UPC": {
+            "power": "pwr_off"
+        },
+
+        "Microsoft_Xbox360": {
+            "power": "KEY_POWER_OFF"
+        }
+    },
+
+    "xbox": {
+
+        "LG_REMOTE": {
+            "power": "power_on"
+        },
+
+        "AMP": {
+            "power": "pwr_on",
+            "channel": "input_game",
+            "sound": "mode_tv"
+        },
+
+        "Apple_A1294": {
+            "power": "pwr_off"
+        },
+
+        "firetv": {
+            "power": "off"
+        },
+
+        "UPC": {
+            "power": "pwr_off"
+        },
+
+        "Microsoft_Xbox360": {
+            "power": "KEY_POWER_ON"
+        }
+    },
+
+    "chromecast": {
+
+        "LG_REMOTE": {
+            "power": "power_on"
+        },
+
+        "AMP": {
+            "power": "pwr_on",
+            "channel": "input_tv_tape",
+            "sound": "mode_tv"
+        },
+
+        "Apple_A1294": {
+            "power": "pwr_off"
+        },
+
+        "firetv": {
+            "power": "off"
+        },
+
+        "UPC": {
+            "power": "pwr_off"
+        },
+
+        "Microsoft_Xbox360": {
+            "power": "KEY_POWER_ON"
+        }
+    },
+
+    "laptop": {
+
+        "LG_REMOTE": {
+            "power": "power_on"
+        },
+
+        "AMP": {
+            "power": "pwr_on",
+            "channel": "input_cbl_sat",
+            "sound": "mode_tv"
+        },
+
+        "Apple_A1294": {
+            "power": "pwr_on"
+        },
+
+        "firetv": {
+            "power": "off"
+        },
+
+        "UPC": {
+            "power": "pwr_off"
+        },
+
+        "Microsoft_Xbox360": {
+            "power": "KEY_POWER_OFF"
+        }
+    }
+    
+}
