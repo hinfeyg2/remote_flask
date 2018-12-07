@@ -145,7 +145,7 @@ for p in range(1, 5):
 
 				if 't' in j:
 
-					channelDict[i['o']]["schedule"].append({"title": j['t'], "startTime": datetime.datetime.fromtimestamp(int(str(j['s'])[:10])).strftime('%Y-%m-%d %H:%M:%S'), "endTime": datetime.datetime.fromtimestamp(int(str(j['e'])[:10])).strftime('%Y-%m-%d %H:%M:%S')})
+					channelDict[i['o']]["schedule"].append({"title": j['t'], "startTime": datetime.datetime.fromtimestamp(int(str(j['s'])[:10])).strftime('%Y-%m-%d %H:%M:%S'), "endTime": datetime.datetime.fromtimestamp(int(str(j['e'])[:10])).strftime('%Y-%m-%d %H:%M:%S'), 'startTimeStamp': int(str(j['s'])[:10]), 'endTimeStamp': int(str(j['e'])[:10])})
 
 
 for i in channelDict:
@@ -163,6 +163,7 @@ for i in channelDict:
 	channelDict[i]['schedule'] = new_l
 
 
-with open('result.json', 'w') as fp:
+with open('/home/pi/remote/result.json', 'w') as fp:
     json.dump(channelDict, fp)
+    
 
