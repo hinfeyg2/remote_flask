@@ -1,1 +1,23 @@
-{"firetv": {"app": "adb shell monkey -p org.xbmc.kodi -c android.intent.category.LAUNCHER 1", "power": "off"}, "UPC": {"power": "pwr_on"}, "LG_REMOTE": {"power": "power_on"}, "Apple_A1294": {"power": "pwr_off"}, "Microsoft_Xbox360": {"power": "KEY_POWER_OFF"}, "AMP": {"sound": "mode_tv", "power": "pwr_on", "channel": "input_dvd_bd"}}
+{
+  "firetv": {
+    "app": "adb shell monkey -p org.xbmc.kodi -c android.intent.category.LAUNCHER 1",
+    "power": "off"
+  },
+  "UPC": {
+    "power": "pwr_on"
+  },
+  "LG_REMOTE": {
+    "power": "power_on"
+  },
+  "Apple_A1294": {
+    "power": "pwr_off"
+  },
+  "Microsoft_Xbox360": {
+    "power": "KEY_POWER_OFF"
+  },
+  "AMP": {
+    "sound": "mode_tv",
+    "power": "pwr_on",
+    "channel": "input_dvd_bd"
+  }
+}
